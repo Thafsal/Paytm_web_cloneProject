@@ -240,6 +240,7 @@ nav {
 .instruments {
   padding-top: 120px;
   background: #f5f7fa;
+  padding: 0 0 48px;
 }
 .instruments > h1 {
   width: 1170px;
@@ -257,6 +258,7 @@ nav {
   background: #fff;
   margin: auto;
   width: 80%;
+  border-radius: 20px;
 }
 
 .payment_child_left {
@@ -271,9 +273,10 @@ nav {
 
 .payment_child_right img {
   max-width: 100%;
+  margin-left: 10%;
 }
-.left_logo_banner > img{
-    width: 80px;
+.left_logo_banner > img {
+  width: 80px;
 }
 .left_logo_banner {
   display: flex;
@@ -282,20 +285,42 @@ nav {
   width: 175px;
 }
 .wallet_text {
-    width: 45%;
-    font-size: 16px;
-    font-weight: 700;
+  width: 45%;
+  font-size: 16px;
+  font-weight: 700;
 }
 .left_content_container {
-    margin-top: 48px;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 46px;
+  margin-top: 48px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
 }
 .left_content_container > span {
-    padding: 24px 0 30px;
-    display: block;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 26px;
+  padding: 24px 0 30px;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.left_logo_postpaid {
+  height: 40px;
+  width: 140px;
+  padding-right: 14px;
+  padding-bottom: 23px;
+}
+.left_logo_postpaid > img {
+  width: 130%;
+}
+.Learn_more {
+  background: #002970;
+  padding: 16px 24px;
+  border-radius: 25px;
+  width: 120px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 18px;
 }
