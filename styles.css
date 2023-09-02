@@ -1,12 +1,12 @@
 body,
 button,
-h1,
 h2,
 input,
 pre,
 select,
 textarea {
   font-family: Inter, sans-serif;
+  overflow-x: hidden;
 }
 body {
   color: #000;
@@ -240,7 +240,7 @@ nav {
 .instruments {
   padding-top: 120px;
   background: #f5f7fa;
-  padding: 0 0 48px;
+  padding: 70 0 48px;
 }
 .instruments > h1 {
   width: 1170px;
@@ -323,4 +323,150 @@ nav {
   color: #fff;
   font-weight: 500;
   line-height: 18px;
+}
+.instruments {
+  background: #f5f7fa;
+}
+
+.cc_parent_container {
+  width: 1240px;
+  margin: auto;
+  padding: 0 0 130px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cc_child_left,
+.cc_child_right {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  padding: 70px 64px 0;
+  margin-right: 48px;
+  margin-left: 20px;
+  position: relative;
+  width: 561px;
+  height: 630px;
+  cursor: pointer;
+}
+.right_logo_cc,
+.left_logo_cc {
+  width: 131%;
+  padding: 0 0 30px 0;
+}
+.right_logo_cc > img {
+  width: 33%;
+  margin-top: 22px;
+}
+.left_logo_cc > img {
+  width: 30%;
+}
+.card_container img {
+  width: 100%;
+}
+
+.card_container > img {
+  width: 103%;
+  display: block;
+  margin: 0 auto;
+}
+.financial_parent_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 50px 80px 55px;
+  align-items: flex-start;
+  background: #fff;
+  margin: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+.financial_child_right > img {
+  max-width: 60%;
+  margin-left: 10%;
+}
+.financial_header {
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+  line-height: 50px;
+  width: max-content;
+  padding-bottom: 40px;
+}
+.sec_bg {
+  background: #f5f7fa;
+}
+.sec_bg_1 {
+  background: url(./Images/secure.avif) no-repeat center center;
+}
+.pl_bg {
+  background: #f5f7fa;
+}
+.biz_child_right > img {
+  max-width: 70%;
+  margin-left: 40%;
+}
+.footer_container {
+  background: #f5f7fa;
+  padding: 90px 0 0;
+}
+.footer_parent {
+  width: 1260px;
+  margin: auto;
+  padding-bottom: 150px;
+}
+.footer_download {
+  display: flex;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.download_2 , .download_1 {
+  display: flex;
+}
+.download_1 > span {
+  width: 30%;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+.social {
+  width: 25px;
+  margin-right: 30px;
+
+  cursor: pointer;
+}
+.download_2 >a {
+  margin-right: 50px;
+}
+.social_1 {
+  width: 15px;
+}
+.button_parent {
+  display: flex;
+  padding: 15px 0;
+}
+.child_1 ,.child_3{
+  margin: 0 15px;
+}
+.child_3 {
+  display: block;
+  width: 93%;
+}
+.more_button {
+  margin-top: 70px;
+}
+.child_2{
+  width: auto;
+}
+.final_foot {
+  background: #00baf2;
+  height: 10px;
+}
+.final_foot_1 {
+  background: #002970;
+  height: 10px;
 }
